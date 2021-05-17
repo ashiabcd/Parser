@@ -1,0 +1,9 @@
+main
+{ 
+int 
+id 
+: 
+;
+float 
+id 
+:  

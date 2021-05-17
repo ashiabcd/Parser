@@ -1,0 +1,33 @@
+Cannot recognise iff
+                                          $ D S
+                                          $ D C
+                                          $ D G F O V then V O F if
+if                                         $ D G F O V then V O F
+if                                         $ D G F O V then V O n
+if n                                        $ D G F O V then V O
+if n                                        $ D G F O V then V <
+if n <                                       $ D G F O V then V
+if n <                                       $ D G F O V then id
+if n < id                                      $ D G F O V then
+if n < id then                                     $ D G F O V
+if n < id then                                     $ D G F O id
+if n < id then id                                    $ D G F O
+if n < id then id                                    $ D G F =
+if n < id then id =                                   $ D G F
+if n < id then id =                                   $ D G n
+if n < id then id = n                                  $ D G
+Cannot recognise els
+if n < id then id = n                                  $ D endif F O V else
+if n < id then id = n else                                 $ D endif F O V
+if n < id then id = n else                                 $ D endif F O id
+if n < id then id = n else id                                $ D endif F O
+if n < id then id = n else id                                $ D endif F !
+if n < id then id = n else id !                               $ D endif F
+Expecting: ('endif', '=')
+if n < id then id = n else id ! endif                              $ D
+Couldn't find: n
+if n < id then id = n else id ! endif                              $ ;
+if n < id then id = n else id ! endif ;                             $
+if n < id then id = n else id ! endif ;                             
+Rejected, Errors: 4
+

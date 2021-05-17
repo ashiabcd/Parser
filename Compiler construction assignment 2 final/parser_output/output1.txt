@@ -1,0 +1,25 @@
+                                          $ D S
+                                          $ D V D V D K
+                                          $ D V D V D main
+main                                         $ D V D V D
+main                                         $ D V D V {
+main {                                        $ D V D V
+main {                                        $ D V D O id T
+main {                                        $ D V D O id int
+main { int                                       $ D V D O id
+main { int id                                      $ D V D O
+main { int id                                      $ D V D :
+main { int id :                                     $ D V D
+main { int id :                                     $ D V ;
+main { int id : ;                                    $ D V
+main { int id : ;                                    $ D O id T
+main { int id : ;                                    $ D O id float
+main { int id : ; float                                   $ D O id
+main { int id : ; float id                                  $ D O
+main { int id : ; float id                                  $ D :
+main { int id : ; float id :                                 $ D
+main { int id : ; float id :                                 $ }
+main { int id : ; float id : }                                $
+main { int id : ; float id : }                                
+Accepted
+

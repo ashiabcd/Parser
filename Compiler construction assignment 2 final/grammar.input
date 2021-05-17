@@ -1,0 +1,49 @@
+1|P->S D|true,false,return,void,main,for,while,until,if,else
+2|P->D|{,},(,),[,],;
+3|S->K D V D V|true,false,return,void,main,for,while,until
+4|S->C|if,else
+5|K->true|true
+6|K->false|false
+7|K->return|return
+8|K->void|void
+9|K->main|main
+10|K->for|for
+11|K->while|while
+12|K->until|until
+13|T->int|int
+14|T->float|float
+15|T->boolean|boolean
+16|T->string|string
+17|L->while S { }|while
+18|L->for S { }|for
+19|L->until S { }|until
+20|V->T id O|int,float,boolean,string
+21|V->id|id
+22|O->+|+
+23|O->-|-
+24|O->%|%
+25|O->/|/
+26|O->*|*
+27|O->==|==
+28|O->>|>
+29|O-><|<
+30|O->>=|>=
+31|O-><=|<=
+32|O->!=|!=
+33|O->&&|&&
+34|O->!|!
+35|O->?|?
+36|O->:|:
+37|O->=|=
+38|O->"|"
+39|O->$|$
+40|D->{|{
+41|D->}|}
+42|D->(|(
+43|D->)|)
+44|D->[|[
+45|D->]|]
+46|D->;|;
+47|F->n|n
+48|C->if F O V then V O F G|if
+49|G->else V O F endif|else

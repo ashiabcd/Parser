@@ -1,0 +1,15 @@
+iff 
+n 
+< 
+id 
+then 
+do
+id 
+= 
+n
+els
+id 
+!= 
+n
+endif
+;
